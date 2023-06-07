@@ -2,25 +2,28 @@ import "./App.css";
 import ExpenseItem from "./components/ExpenseItem";
 
 function App() {
-  const options = { year: "numeric", month: "2-digit", day: "2-digit" };
   const expenses = [
     {
-      date: new Date().toLocaleDateString("en-US", options),
+      id: "e1",
+      date: new Date(2023,3,9),
       title: "Laptop",
       amount: 300,
     },
     {
-      date: new Date().toLocaleDateString("en-US", options),
+      id: "e2",
+      date: new Date(2023,4,12),
       title: "IPHONE",
       amount: 800,
     },
     {
-      date: new Date().toLocaleDateString("en-US", options),
+      id: "e3",
+      date: new Date(2023,5,7), 
       title: "TV",
       amount: 900,
     },
     {
-      date: new Date().toLocaleDateString("en-US", options),
+      id: "e4",
+      date: new Date(2023,6,5),
       title: "New Car",
       amount: 15000,
     },

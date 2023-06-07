@@ -3,7 +3,7 @@
   display: flex;
   background-color: #505962;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   padding: 0 10px;
   border-radius: 20px;
   box-shadow: 3px 0px 7px 4px rgba(0, 0, 0, 0.3);
@@ -25,4 +25,26 @@
   border-radius: 20px;
   font-size: x-large;
   font-weight: bold;
+}
+
+.expense-date {
+  width: 80px;
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ddd;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.month, .day {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.year {
+  font-size: 13px;
+  margin: 5px 0;
 }
