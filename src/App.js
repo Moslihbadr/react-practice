@@ -3,8 +3,7 @@ import ExpenseItem from './components/ExpenseItem'
 
 function App() {
   return (
-    <div className="App">
-      <h1>React Saahla gha bdawha hhh</h1>
+    <div className='App'>
       <ExpenseItem></ExpenseItem>
     </div>
   );

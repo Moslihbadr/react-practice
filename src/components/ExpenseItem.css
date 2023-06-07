@@ -1,0 +1,27 @@
+.expenseItem {
+  width: 90vw;
+  display: flex;
+  background-color: #505962;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0 10px;
+  border-radius: 20px;
+  box-shadow: 3px 0px 7px 4px rgba(0, 0, 0, 0.3);
+}
+
+.expenseItem-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 60%;
+}
+
+.expenseItem-amount {
+  padding: 15px 30px ;
+  background-color: rgb(81, 15, 143);
+  color: #ddd;
+  border: 2px solid #ddd;
+  border-radius: 20px;
+  font-size: x-large;
+  font-weight: bold;
+}
