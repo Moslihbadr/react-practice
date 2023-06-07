@@ -1,16 +1,12 @@
 import './ExpenseItem.css'
 
-function ExpenseItem() {
-  const expenseDate = new Date();
-  const expenseTitle = 'Laptop';
-  const expenseAmount = 300;
-  const options = { year: 'numeric', month: '2-digit', day: '2-digit' };
+function ExpenseItem(props) {
   return (
     <div className="expenseItem">
-      <div>{expenseDate.toLocaleDateString("en-US", options)}</div>
+      <div>{props.date}</div>
       <div className='expenseItem-description'>
-        <h2>{expenseTitle}</h2>
-        <div className='expenseItem-amount'>${expenseAmount}</div>
+        <h2>{props.title}</h2>
+        <div className='expenseItem-amount'>${props.amount}</div>
       </div>
     </div>
   );
