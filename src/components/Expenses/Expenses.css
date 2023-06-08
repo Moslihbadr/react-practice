@@ -1,5 +1,7 @@
 .expenses-container {
+  max-width: 1100px;
   padding: 20px;
   border-radius: 20px;
   background-color: #444;
+  margin: 20px;
 }

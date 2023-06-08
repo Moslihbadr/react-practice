@@ -1,0 +1,49 @@
+.new-expense {
+  max-width: 1100px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #555;
+  margin: 20px;
+}
+
+.new-expense-form-inputs {
+  display: flex;
+  flex-wrap: wrap;
+}
+.new-expense-title, 
+.new-expense-amount, 
+.new-expense-date {
+  margin: 0 20px;
+}
+
+.new-expense-form-inputs label {
+  color: #111;
+  font-size: 25px;
+  font-weight: bold;
+  display: block;
+  margin: 15px 0;
+}
+
+.new-expense-form-inputs input {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.new-expense-btn {
+  text-align: end;
+  margin: 10px;
+}
+
+.new-expense-btn button {
+  padding: 15px 20px;
+  background-color: #510F8F;
+  color: #DDD;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
